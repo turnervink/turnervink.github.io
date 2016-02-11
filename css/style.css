@@ -5,8 +5,9 @@
 
 .p1 {
   margin-left: 10px;
+  margin-right: 10px;
   text-indent: 2.5em;
-  text-align: justify;
+  text-align: left;
 }
 
 .septext {
@@ -93,11 +94,10 @@
 
 #bio {
   margin-top: 20px;
-  margin-left: 10px;
-  text-align: left;
+  text-align: center;
   font-family: sans-serif;
   color: black;
-  width: 98%;
+  width: 100%;
 }
 
 #topheader {
