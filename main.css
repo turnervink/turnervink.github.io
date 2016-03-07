@@ -1,0 +1,44 @@
+.jumbotron {
+  background-image: url("images/banner.jpg");
+  min-height: 500px;
+  max-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  font-size: 72px;
+  font-weight: bold;
+  color: white;
+}
+
+.jumbotron p {
+  color: white;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.separater {
+  height: 1px;
+  width: 75%;
+  background-color: #E8E6DC;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolio h3 {
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+#portfolio .col-md-6 {
+  padding: 0px;
+}
+
+#material-ribbon {
+  float: right;
+  text-align: right;
+}
