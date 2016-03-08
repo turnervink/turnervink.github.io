@@ -8,20 +8,22 @@
 }
 
 .jumbotron h1 {
-  font-size: 72px;
+  font-size: 108px;
   font-weight: bold;
   color: white;
+  text-shadow: 2px 2px 1px black;
 }
 
 .jumbotron p {
   color: white;
-  font-weight: lighter;
   font-style: italic;
+  position: relative;
+  top: 300px;
 }
 
 .separater {
   height: 1px;
-  width: 75%;
+  width: 100%;
   background-color: #E8E6DC;
   margin-bottom: 15px;
   margin-top: 15px;
@@ -29,17 +31,97 @@
   margin-right: auto;
 }
 
+.face-separater {
+  height: 1px;
+  width: 100%;
+  background-color: #E8E6DC;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.face-desc {
+  margin-left: -15px !important;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+#acabadge {
+  max-width: 150px;
+  height: auto;
+  width: auto;
+}
+
+#portfolio .col {
+  padding-left: 0px;
+}
+
 #portfolio h3 {
   margin-top: 0px;
   font-weight: bold;
   font-size: 32px;
+  font-weight: lighter;
 }
 
-#portfolio .col-md-6 {
+#portfolio p {
+  font-family: Helvetica, sans-serif;
+}
+
+#portfolio img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#contact-box .container-fluid {
+  background-color: #FFD900;
+  border: 15px solid #FFD900;
+  color: white;
+  height: auto;
+}
+
+#contact-box h3 {
+  /*text-shadow: 2px 2px 20px black;*/
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+#contact-box .face-separater {
+  background-color: white;
+}
+
+#contact-box img {
+  border: 5px solid white;
+  box-shadow: 1px 0px 50px black;
+  width: 200px;
+  float: right;
+}
+
+#contact-box ul {
+  font-size: 18px;
+  list-style-type: none;
   padding: 0px;
 }
 
-#material-ribbon {
-  float: right;
-  text-align: right;
+#contact-box li {
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+}
+
+#contact-box a {
+  color: #fff;
+}
+
+#contact-box a:hover {
+  color: orange;
+  text-decoration: none;
 }
