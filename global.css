@@ -1,0 +1,30 @@
+.navbar {
+  padding-top: 10px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid grey;
+  width: 100%;
+}
+
+.navbar ul {
+  font-size: 18px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.navbar li {
+  display: inline;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.navbar a {
+  padding: 14px 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: gray;
+}
