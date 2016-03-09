@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url("images/utah_pose.jpg");
+  background-image: url("images/utah_pose.JPG");
   min-height: 500px;
   max-height: 700px;
   background-repeat: no-repeat;
@@ -19,56 +19,6 @@
   font-style: italic;
   position: relative;
   top: 300px;
-}
-
-#navbar {
-  padding-top: 10px;
-  background-color: #fff;
-  position: fixed;
-  z-index: 1;
-  border-bottom: 1px solid gray;
-  width: 100%;
-}
-
-#navbar ul {
-  font-size: 18px;
-  list-style-type: none;
-  padding: 0px;
-}
-
-#navbar li {
-  display: inline;
-  font-family: Helvetica, sans-serif;
-  font-weight: lighter;
-  text-transform: uppercase;
-}
-
-#navbar a {
-  padding: 14px 10px;
-}
-
-#navbar a:hover {
-  color: gray;
-}
-
-.separater {
-  height: 1px;
-  width: 100%;
-  background-color: #E8E6DC;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.face-separater {
-  height: 1px;
-  width: 100%;
-  background-color: #E8E6DC;
-  margin-bottom: 30px;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .face-desc {
@@ -131,7 +81,6 @@ a:hover {
 
 #contact-box img {
   border: 5px solid white;
-  box-shadow: 1px 0px 50px black;
   width: 200px;
   float: right;
 }
