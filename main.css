@@ -8,7 +8,7 @@
 }
 
 .jumbotron h1 {
-  font-size: 108px;
+  font-size: 98px;
   font-weight: lighter;
   color: white;
   text-shadow: 0px 1px 1px gray;
@@ -85,6 +85,11 @@ a:hover {
   float: right;
 }
 
+#contact-box ul img {
+  width: 50px;
+  border: none;
+}
+
 #contact-box ul {
   font-size: 18px;
   list-style-type: none;
@@ -104,4 +109,8 @@ a:hover {
 #contact-box a:hover {
   color: orange;
   text-decoration: none;
+}
+
+#tweets {
+  float: right;
 }
