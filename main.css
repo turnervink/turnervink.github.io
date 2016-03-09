@@ -21,28 +21,6 @@
   top: 300px;
 }
 
-
-
-.separater {
-  height: 1px;
-  width: 100%;
-  background-color: #E8E6DC;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.face-separater {
-  height: 1px;
-  width: 100%;
-  background-color: #E8E6DC;
-  margin-bottom: 30px;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .face-desc {
   margin-left: -15px !important;
 }
