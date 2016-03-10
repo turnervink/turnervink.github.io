@@ -80,7 +80,6 @@ a:hover {
 }
 
 #contact-box img {
-  border: 5px solid white;
   width: 200px;
   float: right;
 }
@@ -113,13 +112,14 @@ a:hover {
 
 #social-icons {
   float: left;
+  padding-bottom: 50px;
 }
 
 #social-icons img {
+  max-width: 20%;
   border: none;
-  height: 50px;
-  width: auto;
   padding-right: 10px;
+  float: left;
 }
 
 #support-me {
@@ -139,13 +139,21 @@ a:hover {
 }
 
 #support-me a {
-  color: orange;
+  color: #003087;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+#support-me a:hover {
+  color: #003087;
 }
 
 #support-me .btn {
-  width: 150px;
+  width: 175px;
+  height: auto;
   display: block;
   float: right;
+  box-shadow: 1px 1px 1px grey;
 }
 
 #support-me img {
