@@ -111,6 +111,50 @@ a:hover {
   text-decoration: none;
 }
 
+#social-icons {
+  float: left;
+  padding-bottom: 50px;
+}
+
+#social-icons img {
+  max-width: 25%;
+  border: none;
+  padding-right: 10px;
+}
+
+#support-me {
+  color: #fff;
+}
+
+#support-me h3 {
+  font-size: 48px;
+  font-weight: lighter;
+  text-align: right;
+}
+
+#support-me p {
+  text-align: right;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+#support-me a {
+  color: orange;
+}
+
+#support-me .btn {
+  width: 150px;
+  display: block;
+  float: right;
+}
+
+#support-me img {
+  border: none;
+  height: 50px;
+  width: auto;
+  padding-right: 5px;
+}
+
 #tweets {
   float: right;
 }
