@@ -113,12 +113,12 @@ a:hover {
 
 #social-icons {
   float: left;
+  padding-bottom: 50px;
 }
 
 #social-icons img {
+  max-width: 25%;
   border: none;
-  height: 50px;
-  width: auto;
   padding-right: 10px;
 }
 
