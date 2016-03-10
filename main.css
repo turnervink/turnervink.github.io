@@ -146,6 +146,7 @@ a:hover {
 
 #support-me a:hover {
   color: #003087;
+  box-shadow: none;
 }
 
 #support-me .btn {
