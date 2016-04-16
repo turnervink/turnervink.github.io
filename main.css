@@ -116,10 +116,14 @@ a:hover {
 }
 
 #social-icons img {
-  max-width: 20%;
+  max-width: 10%;
   border: none;
-  padding-right: 10px;
+  padding-right: 15px;
   float: left;
+}
+
+#social-icons img:hover {
+  opacity: 0.5;
 }
 
 #support-me {
