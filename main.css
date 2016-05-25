@@ -116,7 +116,7 @@ a:hover {
 }
 
 #social-icons img {
-  max-width: 10%;
+  max-width: 64px;
   border: none;
   padding-right: 15px;
   float: left;
