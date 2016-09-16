@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url("images/utah_pose.JPG");
+  background-image: url("images/large_me_header_2.jpg");
   min-height: 500px;
   max-height: 700px;
   background-repeat: no-repeat;
@@ -116,10 +116,14 @@ a:hover {
 }
 
 #social-icons img {
-  max-width: 20%;
+  max-width: 64px;
   border: none;
-  padding-right: 10px;
+  padding-right: 15px;
   float: left;
+}
+
+#social-icons img:hover {
+  opacity: 0.5;
 }
 
 #support-me {

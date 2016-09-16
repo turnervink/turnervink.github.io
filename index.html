@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-54995064-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 <html>
   <head>
+    <script src="node_modules/wowjs/dist/wow.min.js" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-54995064-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script>
+      new WOW().init();
+    </script>
+
+
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/wowjs/node_modules/animate.css/animate.css">
     <link rel="stylesheet" type="text/css" href="global.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
@@ -43,13 +49,14 @@
       <div class=container>
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
-            <h2>About Me</h2>
-            <div class="face-separater"></div>
-            <p>I'm a high school senior living in the Vancouver, BC area with a passion for technology. I'm planning to attend BCIT in the coming years to receive a diploma
-            from their Computer Systems Technology program, possibly followed by a degree. I've been teaching myself to code by creating things like this website
-            and watchfaces for the Pebble smartwatch, some of which I've linked below!</p>
-            <p>I am also an Adobe Certified Associated in both Photoshop and InDesign. You can view my badges online at <a href="https://www.youracclaim.com/user/turnervink">Acclaim</a>.</p>
-            <img id="acabadge" src="images/acabadge.jpg">
+            <h2 class="animated fadeIn">About Me</h2>
+            <div class="face-separater wow animated fadeInLeft"></div>
+            <p class="animated fadeIn">I'm a recent high school graduate living in the Vancouver, BC area with a passion for technology. I've been teaching myself to code by creating
+            watchfaces for the Pebble smartwatch, some of which you can find below! I also dabble in print and digital media design using my Adobe certifications to create things like
+            posters and booklets for myself and clients. I'll have some of those projects available for browsing on this website soon! If you want to get in touch with me, scroll to the
+            bottom of this page and send me an email!</p>
+            <p>I am an Adobe Certified Associated in both Photoshop and InDesign. You can view my badges online at <a href="https://www.youracclaim.com/user/turnervink">Acclaim</a>.</p>
+            <img class="wow animated pulse" id="acabadge" src="images/acabadge.jpg">
           </div>
         </div>
       </div>
@@ -61,15 +68,15 @@
       <div class=container>
         <div id="square" class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
-            <h2>Stuff I've Made</h2>
+            <h2 class="wow animated fadeIn">Stuff I've Made</h2>
             <div class="face-separater"></div>
         </div>
 
           <div class="pull-left col-xs-4 col-sm-2 col-md-2 col-xl-2">
-            <a href="https://apps.getpebble.com/applications/552597c506e80c0a4b00007f"><img class="img-rounded" src="images/square.gif"></a>
+            <a href="https://apps.getpebble.com/applications/552597c506e80c0a4b00007f"><img class="wow animated pulse img-rounded" data-wow-offset="160" src="images/square.gif"></a>
           </div>
           <div class="face-desc pull-left col-xs-8 col-sm-6 col-md-6 col-xl-6">
-            <h3>Square</h3>
+            <h3><a href="faces/square.html">Square</a></h3>
             <div class="face-separater"></div>
             <p>Packed with features, Square is a simple watchface that can suit anyone's needs! Pick any colour combination, have the middle bar display the battery level,
               have a weather forecast shown when you flick your wrist, all the time, or not at all, and choose your preferred date format. Square also has support for multiple
@@ -82,12 +89,12 @@
 
       <div id="material-ribbon" class="row">
         <div class="col-xs-4 col-sm-2 col-md-2 col-xl-2">
-          <a href="https://apps.getpebble.com/applications/56afc52e3076f5d16e000050"><img class="img-rounded" src="images/materialribbon.gif"></a>
+          <a href="https://apps.getpebble.com/applications/56afc52e3076f5d16e000050"><img class="wow animated pulse img-rounded" data-wow-offset="160" src="images/materialribbon.gif"></a>
         </div>
         <div class="face-desc col-xs-8 col-sm-6 col-md-6 col-xl-6">
           <h3>Material Ribbon</h3>
           <div class="face-separater"></div>
-          <p>Two crossed "ribbons" show the weather, battery level, and Bluetooth status with beautiful Material icons. Choose from 6 colours schemes and follow the sdaow of the
+          <p>Two crossed "ribbons" show the weather, battery level, and Bluetooth status with beautiful Material icons. Choose from 6 colours schemes and follow the shadow of the
             horizontal ribbbon as you progress towards your daily step goal.</p>
         </div>
         <!--<div class="face-separater pull-right col-xs-11 col-sm-11 col-md-11 col-xl-11"></div>-->
@@ -98,7 +105,7 @@
 
       <div id="vacation-time" class="row">
         <div class="col-xs-4 col-sm-2 col-md-2 col-xl-2">
-          <a href="https://apps.getpebble.com/applications/553047687b5ea6980a00006a"><img class="img-rounded" src="images/vacationtime.gif"></a>
+          <a href="https://apps.getpebble.com/applications/553047687b5ea6980a00006a"><img class="wow animated pulse img-rounded" data-wow-offset="160" src="images/vacationtime.gif"></a>
         </div>
         <div class="face-desc col-xs-8 col-sm-6 col-md-6 col-xl-6">
           <h3>Vacation Time</h3>
@@ -111,27 +118,16 @@
       <br>
       <br>
 
-      <div id="undertime" class="row">
-        <div class="col-xs-4 col-sm-2 col-md-2 col-xl-2">
-          <a href="https://apps.getpebble.com/applications/565fdd4a0ea7f7eaa9000008"><img class="img-rounded" src="images/undertime.png"></a>
-        </div>
-        <div class="face-desc col-xs-8 col-sm-6 col-md-6 col-xl-6">
-          <h3>Undertime</h3>
-          <div class="face-separater"></div>
-          <p>Checking the time... it fills you with DETERMINATION. A new Undertale character every hour or every time you launch the watchface. The health bar empties if
-            your watch disconnects from your phone, and the LV shows the current temperature.</p>
-        </div>
-      </div>
     </div>
 
     <br>
     <br>
 
-    <div id="contact-box">
+    <div id="contact-box" class="wow animated fadeIn">
       <div class="container-fluid">
         <div class="row">
           <div class="hidden-xs col-sm-2 col-md-2 col-xl-2">
-            <img class="img-circle" src="images/avatar.jpg">
+            <img class="img-circle wow animated slideInLeft" src="images/avatar.jpg">
           </div>
 
           <div class="col-xs-12 col-sm-4 col-md-4 col-xl-4">
@@ -144,17 +140,17 @@
             </ul>-->
 
             <div id="social-icons" class="pull-left">
-              <a href="http://www.twitter.com/turnervink"><img class="img-responsive" src="images/twitter.png"></a>
-              <a href="http://www.github.com/turnervink"><img class="img-responsive" src="images/github.png"></a>
-              <a href="mailto:turner@turnervink.com?Subject=Message%20from%20turnervink.com:%20"><img class="img-responsive" src="images/email.png"></a>
+              <a href="http://www.twitter.com/turnervink"><img class="img-responsive wow animated flipInY" data-wow-delay=".2s" src="images/twitter.png"></a>
+              <a href="http://www.github.com/turnervink"><img class="img-responsive wow animated flipInY" data-wow-delay=".4s" src="images/github.png"></a>
+              <a href="mailto:turner@turnervink.com?Subject=Message%20from%20turnervink.com:%20"><img class="img-responsive wow animated flipInY" data-wow-delay=".6s" src="images/email.png"></a>
             </div>
           </div>
 
           <div class="col-xs-12 col-sm-5 col-md-5 col-xl-5 pull-right" id="support-me">
             <h3>Support</h3>
             <div class="face-separater" style="margin-bottom:10px;"></div>
-            <p>If you enjoy the things I make, consider donating a dollar or two to support further development!</p>
-            <a class="btn btn-default" href="http://paypal.me/turnervink">Donate</a>
+            <p>If you enjoy the watchfaces I've created, consider making a small donation through PayPal!</p>
+            <a class="btn btn-default" data-wow-delay="1s" href="http://paypal.me/turnervink">Donate</a>
           </div>
 
           <!--<div id="tweets" class="pull-right hidden-xs col-sm-6 col-md-6 col-xl-6">
