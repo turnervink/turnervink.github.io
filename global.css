@@ -5,6 +5,7 @@
   z-index: 1;
   box-shadow: 1px 1px 1px grey;
   width: 100%;
+  display: none;
 }
 
 .navbar ul {
