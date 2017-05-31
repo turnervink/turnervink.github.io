@@ -1,149 +1,70 @@
-h1 {
-  font-weight: bold;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 40px;
-}
-
-h3 {
-  font-weight: bold;
-  font-size: 28px;
-}
-
-p {
-  font-size: 18px;
-}
-
-a {
-  color: #3d6ff2;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.black-container {
-  background-color: black;
-}
-
 .jumbotron {
-  background-color: black;
-  margin-bottom: 0px;
-  height: auto;
-  padding-bottom: none;
-}
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#515151+0,2d2d2d+100 */
+    background: #515151; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #515151 0%, #2d2d2d 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #515151 0%,#2d2d2d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #515151 0%,#2d2d2d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#515151', endColorstr='#2d2d2d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
-.jumbotron h1 {
-  text-align: left;
-  font-size: 100px;
-  color: white;
-  font-weight: normal;
-}
-
-.jumbotron h1:first-child {
-  margin-top: 100px;
-}
-
-.jumbotron h1 span {
-  color: #FFD901;
-}
-
-.nav {
-  text-align: center;
-  color: white;
-  font-size: 18px;
-  background-color: black;
-  padding-bottom: 50px;
-  padding-top: 50vh;
-}
-
-@media (max-width: 961px) {
-  .nav {
-    text-align: center;
     color: white;
-    font-size: 18px;
-    background-color: black;
-    padding-bottom: 50px;
-    padding-top: 0;
-  }
 
-  .jumbotron h1 {
-    text-align: left;
-    font-size: 68px;
-    color: white;
-    font-weight: normal;
-  }
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -999;
+}
 
-  .jumbotron h1:first-child {
-    margin-top: 0;
-  }
-
-  #avatar {
-    width: 50px;
-    height: auto;
-  }
+span {
+    color: #FFD901;
 }
 
 #avatar {
-  border-radius: 100%;
+    border-radius: 100%;
 }
 
-.nav img {
-  max-height: 50px;
-  width: auto;
+main {
+    background-color: white;
 }
 
-.nav ul {
-  list-style-type: none;
+#project-cards {
+    width: 100%;
 }
 
-.nav li {
-  display: inline;
+.project-card {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    /*border: 1px solid black;*/
+    margin: 15px 25px 15px 0;
+    padding-bottom: 15px;
+    min-height: 500px;
+    border-radius: 4px;
 }
 
-.nav li:not(:first-child) {
-  margin-left: 50px;
+.project-card img {
+    padding: 15px;
 }
 
-.downarrow {
-  background-color: black;
+footer {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#515151+0,2d2d2d+100 */
+    background: #515151; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #515151 0%, #2d2d2d 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #515151 0%,#2d2d2d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #515151 0%,#2d2d2d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#515151', endColorstr='#2d2d2d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    color: white;
 }
 
-.downarrow h3 {
-  text-align: center;
-  color: white;
-}
-
-#footer {
-  min-height: 150px;
-  margin-top: 15px;
-}
-
-#footer h2 {
-  color: white;
-  text-align: center;
-}
-
-#footer h4 {
-  color: white;
-  text-align: center;
-  font-weight: bold;
-}
-
-#footer p {
-  color: white;
-  text-align: center;
-  font-style: italic;
-  text-transform: lowercase;
-  font-size: 14px;
-}
-
-#footer a {
-  color: #FFD901;
+#social-icons img {
+    max-width: 50px;
+    margin: 5px;
+    margin-bottom: 0;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: none;
 }
