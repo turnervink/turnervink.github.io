@@ -27,7 +27,6 @@ main {
 }
 
 #project-cards {
-    width: 100%;
 }
 
 .project-card {
@@ -43,6 +42,10 @@ main {
 
 .project-card img {
     padding: 15px;
+}
+
+.project-card h3 {
+  margin-top: 0;
 }
 
 footer {
@@ -63,6 +66,10 @@ footer {
     max-width: 50px;
     margin: 5px;
     margin-bottom: 0;
+}
+
+#footer-logo {
+  margin-bottom: 16px;
 }
 
 a:hover {
