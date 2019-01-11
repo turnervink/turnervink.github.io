@@ -15,10 +15,17 @@
     <link rel="stylesheet" href="css/bootstrap-horizon.css">
     <!-- Google Analytics -->
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-54995064-3', 'auto');
         ga('send', 'pageview');
     </script>
@@ -38,188 +45,201 @@
     <title>Turner Vink</title>
 </head>
 <body>
-    <header class="jumbotron">
+<header class="jumbotron">
 
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-8">
-                    <h1>Hi, I'm <span>Turner</span></h1>
-                    <p>
-                        I'm a computer science student in Vancouver, BC at the British Columbia Institute
-                        of Technology currently working as a co-op software developer at Hootsuite.
-                        I've had a strong passion for technology my entire life, and every day
-                        I enjoy learning new things from work, my courses at school,
-                        and through working on personal projects.
-                    </p>
-                    <p>
-                        <a href="resources/Turner Vink Resume.pdf"><span>View my resumé</span></a>
-                    </p>
-                </div>
-
-                <div class="hidden-xs pull-right col-sm-3">
-                    <img class="img-responsive" id="avatar" src="img/avatar.jpg">
-                </div>
-            </div>
-        </div>
-
-    </header>
-
-    <main>
-        <div class="container">
-            <div class="row">
-                <h1 class="col-xs-12">My projects</h1>
-            </div>
-
-            <div id="project-cards">
-
-                <div class="col-xs-12 project-card">
-                    <div class="row">
-                        <h1 class="col-xs-12">Square</h1>
-                        <h3 class="col-xs-12">A simple, clean watchface for the Pebble smartwatch</h3>
-                    </div>
-
-                    <div class="row">
-                        <img class="hidden-md hidden-lg col-xs-8 col-sm-6 col-xs-offset-2 col-sm-offset-3" src="img/projects/square-frame.png">
-                        <img class="pull-right hidden-xs hidden-sm col-md-4" src="img/projects/square-frame.png">
-
-                        <p class="col-xs-12 col-md-8">
-                          Square is a feature-packed watchface with a clean design. Since 2015, Square
-                          has constantly been updated with new user-requested features such as new languages
-                          and fitness tracking. A full list of features can be found on the Pebble app store linked below.
-                          It is a native pebble application, written in C and using JavaScript for settings and weather API
-                          functions.
-                        </p>
-
-                        <p class="col-xs-12 col-md-8">
-                          Square is featured on the front page of the Pebble app store, and currently
-                          has over <strong>50,000 installs</strong> and <strong>1,600 hearts</strong>. Users from all over the world
-                          have been in touch to say how much they enjoy it, and some have even donated
-                          money to support further development.
-                        </p>
-
-                        <h4 class="col-xs-12 col-md-8"><a href="https://apps.getpebble.com/en_US/application/552597c506e80c0a4b00007f?dev_settings=true&query=">
-                          Download on the Pebble app store</a></h4>
-                        <h4 class="col-xs-12 col-md-8"><a href="https://github.com/turnervink/square">View project on GitHub</a></h4>
-
-
-                    </div>
-                </div>
-
-                <div class="col-xs-12 project-card">
-                    <div class="row">
-                        <h1 class="col-xs-12">greenlist</h1>
-                        <h3 class="col-xs-12">Track your food waste and make smarter purchasing decisions</h3>
-                    </div>
-
-                    <div class="row">
-                        <img class="hidden-md hidden-lg col-xs-8 col-sm-6 col-xs-offset-2 col-sm-offset-3" src="img/projects/greenlist.png">
-                        <img class="pull-right hidden-xs hidden-sm col-md-4" src="img/projects/greenlist.png">
-
-                        <p class="col-xs-12 col-md-8">
-                            greenl.ist is a simple grocery list webapp that allows users to track how they
-                            use their groceries and see efficiency data displayed right on their shopping list.
-                            Using this info, users can adjust their purchasing habits to reduce their food waste
-                            and save money. Users can also create shared grocery lists with their own efficiency
-                            datasets to track their habits as a household or group.
-                        </p>
-
-                        <p class="col-xs-12 col-md-8">
-                            greenl.ist was created as a school project at the British Columbia Institute of Technology
-                            in an effort to help with Metro Vancouver's Zero Food Waste Program. Students were tasked
-                            with developing web applications to engage users with the zero waste effort, and make
-                            helping the environment more accessible and interesting. It was created using
-                            AngularJS, Google Firebase, and AngularFire.
-                          </p>
-
-                        <h4 class="col-xs-12 col-md-8"><a href="http://www.greenl.ist">
-                          Sign up and start using greenl.ist today</a></h4>
-                        <h4 class="col-xs-12 col-md-8"><a href="https://github.com/turnervink/greenlist">View project on GitHub</a></h4>
-
-                    </div>
-                </div>
-
-                <div class="col-xs-12 project-card">
-                    <div class="row">
-                        <h1 class="col-xs-12">NextBus Vancouver</h1>
-                        <h3 class="col-xs-12">Live bus arrival info on your Pebble smartwatch</h3>
-                    </div>
-
-                    <div class="row">
-                        <img class="hidden-md hidden-lg col-xs-8 col-sm-6 col-xs-offset-2 col-sm-offset-3" src="img/projects/nextbus-frame.png">
-                        <img class="pull-right hidden-xs hidden-sm col-md-4" src="img/projects/nextbus-frame.png">
-
-                        <p class="col-xs-12 col-md-8">
-                            NextBus Vancouver is a Pebble watchapp that takes advantage of Metro Vancouver's TransLink NextBus
-                            system to let users quickly get information about the next arrival at a bus stop. By entering the
-                            stop ID listed on any TransLink bus stop sign, users can see what the next bus to arrive is
-                            and how many minutes it will be until it arrives.
-                        </p>
-                        <p class="col-xs-12 col-md-8">
-                            NextBus Vancouver uses the TransLink API and takes advantage of real-time GPS data for TransLink
-                            vehicles to give accurate arrival estimations. It is a native Pebble app written in C and using
-                            JavaScript for API interfacing.
-                        </p>
-
-                        <h4 class="col-xs-12 col-md-8"><a href="https://apps.getpebble.com/en_US/application/5707f00285fa33c535000034?dev_settings=true&native=false&query=nextbus&section=watchapps">
-                          Download on the Pebble app store</a></h4>
-                        <h4 class="col-xs-12 col-md-8"><a href="https://github.com/turnervink/translink-nextbus">View project on GitHub</a></h4>
-
-                    </div>
-                </div>
-
-                <div class="col-xs-12 project-card">
-                    <div class="row">
-                        <h1 class="col-xs-12">Academic Work</h1>
-                        <h3 class="col-xs-12">Course and lab work at BCIT</h3>
-                    </div>
-
-                    <div class="row">
-
-                        <h4 class="col-xs-12">Courses in progress:</h4>
-                        <ul class="col-xs-12" style="list-style: none;">
-                            <li>
-                                <a href="comp4711/comp4711.html">COMP 4711: Internet Software</a>
-                            </li>
-                            <li>MATH 3042</li>
-                            <li>COMP 4735</li>
-                            <li>BLAW 3600</li>
-                            <li>COMP 4941/4945</li>
-                        </ul>
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </main>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <h1 class="col-xs-12">Get in touch</h1>
-            </div>
-
-            <div class="row">
-                <p id="social-icons" class="col-xs-12">
-                    <a href="http://www.github.com/turnervink"><img src="img/icons/github.png"></a>
-                    <a href="http://www.twitter.com/turnervink"><img src="img/icons/twitter.png"></a>
-                    <a href="https://www.linkedin.com/in/turnervink/"><img src="img/icons/linkedin.png"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8">
+                <h1>Hi, I'm <span>Turner</span></h1>
+                <p>
+                    I'm a computer science student in Vancouver, BC at the British Columbia Institute
+                    of Technology currently working as a co-op software developer at Hootsuite.
+                    I've had a strong passion for technology my entire life, and every day
+                    I enjoy learning new things from work, my courses at school,
+                    and through working on personal projects.
+                </p>
+                <p>
+                    <a href="resources/Turner Vink Resume.pdf"><span>View my resumé</span></a>
                 </p>
             </div>
 
-            <div class="row">
-                <h3>Or email me at <a href="mailto:turner@turnervink.com?Subject=Message%20from%20turnervink.com:%20"><span>turner@turnervink.com</span></a></h3>
-            </div>
-
-            <div class="row">
-              <br>
-              <img id="footer-logo" src="img/logo64.png">
-              <br>
-              <p>&copy; Turner Vink 2018</p>
+            <div class="hidden-xs pull-right col-sm-3">
+                <img class="img-responsive" id="avatar" src="img/avatar.jpg">
             </div>
         </div>
-    </footer>
+    </div>
+
+</header>
+
+<main>
+    <div class="container">
+        <div class="row">
+            <h1 class="col-xs-12">My projects</h1>
+        </div>
+
+        <div id="project-cards">
+
+            <div class="col-xs-12 project-card">
+                <div class="row">
+                    <h1 class="col-xs-12">Square</h1>
+                    <h3 class="col-xs-12">A simple, clean watchface for the Pebble smartwatch</h3>
+                </div>
+
+                <div class="row">
+                    <img class="hidden-md hidden-lg col-xs-8 col-sm-6 col-xs-offset-2 col-sm-offset-3"
+                         src="img/projects/square-frame.png">
+                    <img class="pull-right hidden-xs hidden-sm col-md-4" src="img/projects/square-frame.png">
+
+                    <p class="col-xs-12 col-md-8">
+                        Square is a feature-packed watchface with a clean design. Since 2015, Square
+                        has constantly been updated with new user-requested features such as new languages
+                        and fitness tracking. A full list of features can be found on the Pebble app store linked below.
+                        It is a native pebble application, written in C and using JavaScript for settings and weather
+                        API
+                        functions.
+                    </p>
+
+                    <p class="col-xs-12 col-md-8">
+                        Square is featured on the front page of the Pebble app store, and currently
+                        has over <strong>50,000 installs</strong> and <strong>1,600 hearts</strong>. Users from all over
+                        the world
+                        have been in touch to say how much they enjoy it, and some have even donated
+                        money to support further development.
+                    </p>
+
+                    <h4 class="col-xs-12 col-md-8"><a
+                            href="https://apps.getpebble.com/en_US/application/552597c506e80c0a4b00007f?dev_settings=true&query=">
+                        Download on the Pebble app store</a></h4>
+                    <h4 class="col-xs-12 col-md-8"><a href="https://github.com/turnervink/square">View project on
+                        GitHub</a></h4>
+
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 project-card">
+                <div class="row">
+                    <h1 class="col-xs-12">greenlist</h1>
+                    <h3 class="col-xs-12">Track your food waste and make smarter purchasing decisions</h3>
+                </div>
+
+                <div class="row">
+                    <img class="hidden-md hidden-lg col-xs-8 col-sm-6 col-xs-offset-2 col-sm-offset-3"
+                         src="img/projects/greenlist.png">
+                    <img class="pull-right hidden-xs hidden-sm col-md-4" src="img/projects/greenlist.png">
+
+                    <p class="col-xs-12 col-md-8">
+                        greenl.ist is a simple grocery list webapp that allows users to track how they
+                        use their groceries and see efficiency data displayed right on their shopping list.
+                        Using this info, users can adjust their purchasing habits to reduce their food waste
+                        and save money. Users can also create shared grocery lists with their own efficiency
+                        datasets to track their habits as a household or group.
+                    </p>
+
+                    <p class="col-xs-12 col-md-8">
+                        greenl.ist was created as a school project at the British Columbia Institute of Technology
+                        in an effort to help with Metro Vancouver's Zero Food Waste Program. Students were tasked
+                        with developing web applications to engage users with the zero waste effort, and make
+                        helping the environment more accessible and interesting. It was created using
+                        AngularJS, Google Firebase, and AngularFire.
+                    </p>
+
+                    <h4 class="col-xs-12 col-md-8"><a href="http://www.greenl.ist">
+                        Sign up and start using greenl.ist today</a></h4>
+                    <h4 class="col-xs-12 col-md-8"><a href="https://github.com/turnervink/greenlist">View project on
+                        GitHub</a></h4>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 project-card">
+                <div class="row">
+                    <h1 class="col-xs-12">NextBus Vancouver</h1>
+                    <h3 class="col-xs-12">Live bus arrival info on your Pebble smartwatch</h3>
+                </div>
+
+                <div class="row">
+                    <img class="hidden-md hidden-lg col-xs-8 col-sm-6 col-xs-offset-2 col-sm-offset-3"
+                         src="img/projects/nextbus-frame.png">
+                    <img class="pull-right hidden-xs hidden-sm col-md-4" src="img/projects/nextbus-frame.png">
+
+                    <p class="col-xs-12 col-md-8">
+                        NextBus Vancouver is a Pebble watchapp that takes advantage of Metro Vancouver's TransLink
+                        NextBus
+                        system to let users quickly get information about the next arrival at a bus stop. By entering
+                        the
+                        stop ID listed on any TransLink bus stop sign, users can see what the next bus to arrive is
+                        and how many minutes it will be until it arrives.
+                    </p>
+                    <p class="col-xs-12 col-md-8">
+                        NextBus Vancouver uses the TransLink API and takes advantage of real-time GPS data for TransLink
+                        vehicles to give accurate arrival estimations. It is a native Pebble app written in C and using
+                        JavaScript for API interfacing.
+                    </p>
+
+                    <h4 class="col-xs-12 col-md-8"><a
+                            href="https://apps.getpebble.com/en_US/application/5707f00285fa33c535000034?dev_settings=true&native=false&query=nextbus&section=watchapps">
+                        Download on the Pebble app store</a></h4>
+                    <h4 class="col-xs-12 col-md-8"><a href="https://github.com/turnervink/translink-nextbus">View
+                        project on GitHub</a></h4>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 project-card">
+                <div class="row">
+                    <h1 class="col-xs-12">Academic Work</h1>
+                    <h3 class="col-xs-12">Course and lab work at BCIT</h3>
+                </div>
+
+                <div class="row">
+
+                    <h4 class="col-xs-12">Courses in progress:</h4>
+                    <ul class="col-xs-12" style="list-style: none;">
+                        <li>
+                            <a href="comp4711/comp4711.html">COMP 4711: Internet Software</a>
+                        </li>
+                        <li>MATH 3042</li>
+                        <li>COMP 4735</li>
+                        <li>BLAW 3600</li>
+                        <li>COMP 4941/4945</li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <h1 class="col-xs-12">Get in touch</h1>
+        </div>
+
+        <div class="row">
+            <p id="social-icons" class="col-xs-12">
+                <a href="http://www.github.com/turnervink"><img src="img/icons/github.png"></a>
+                <a href="http://www.twitter.com/turnervink"><img src="img/icons/twitter.png"></a>
+                <a href="https://www.linkedin.com/in/turnervink/"><img src="img/icons/linkedin.png"></a>
+            </p>
+        </div>
+
+        <div class="row">
+            <h3>Or email me at <a href="mailto:turner@turnervink.com?Subject=Message%20from%20turnervink.com:%20"><span>turner@turnervink.com</span></a>
+            </h3>
+        </div>
+
+        <div class="row">
+            <br>
+            <img id="footer-logo" src="img/logo64.png">
+            <br>
+            <p>&copy; Turner Vink 2018</p>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>

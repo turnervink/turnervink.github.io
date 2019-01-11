@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="../../../css/quiz.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../img/favicon.ico">
+    <title>Quiz</title>
+</head>
+<body>
+
+<header class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8">
+                <h1>Quiz time!</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <h4>Question 1</h4>
+                <p>How do you write "Hello World" in an alert box?</p>
+                <input type="radio" name="q1" value="1"> alert("Hello World"); <br/>
+                <input type="radio" name="q1" value="2"> msg("Hello World"); <br/>
+                <input type="radio" name="q1" value="3"> alertBox("Hello World"); <br/>
+            </div>
+
+            <div class="form-group">
+                <h4>Question 2</h4>
+                <p>How do you create a function in JavaScript?</p>
+                <input type="radio" name="q2" value="1"> function myFunction() <br/>
+                <input type="radio" name="q2" value="2"> function:myFunction() <br/>
+                <input type="radio" name="q2" value="3"> function = myFunction() <br/>
+            </div>
+
+            <div class="form-group">
+                <h4>Question 3</h4>
+                <p>What will the output of the code below be?</p>
+                <code>
+                    let i = 0;
+                    while (i < 5) {
+                    console.log(i);
+                    i++;
+                    }
+                </code><br/><br/>
+                <input type="radio" name="q3" value="1"> 0 1 2 3 4 <br/>
+                <input type="radio" name="q3" value="2"> 1 2 3 4 5 <br/>
+                <input type="radio" name="q3" value="3"> 4 <br/>
+            </div>
+
+            <div class="form-group">
+                <h4>Question 4</h4>
+                <p>How can you add a comment in a JavaScript?</p>
+                <input type="radio" name="q4" value="1"> // This is a comment <br/>
+                <input type="radio" name="q4" value="2"> \\ This is a comment <br/>
+                <input type="radio" name="q4" value="3"> 'This is a comment <br/>
+            </div>
+
+            <div class="form-group">
+                <h4>Question 5</h4>
+                <p>What is the correct way to write a JavaScript array?</p>
+                <input type="radio" name="q5" value="1"> var colors = (1:"red", 2:"green", 3:"blue") <br/>
+                <input type="radio" name="q5" value="2"> var colors = ["red", "green", "blue"] <br/>
+                <input type="radio" name="q5" value="3"> var colors = "red", "green", "blue" <br/>
+            </div>
+
+            <br/>
+            <input type="submit" class="btn btn-primary"/>
+            <a href="../../comp4711.html" class="btn btn-danger" role="button">Exit</a>
+
+        </form>
+    </div>
+</main>
+</body>
+</html>
